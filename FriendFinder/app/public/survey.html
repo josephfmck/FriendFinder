@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder Survey</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+
+<body>
+
+    <div class="container content">
+        <h1>Survey</h1>
+        <p>Take a quick survey to find your perfect match! These questions are answered by the numbers 1 through 5. If
+            you disagree with the statement, select a 1. If you agree with the statment, select a 5.</p>
+        <form>
+            <div class="form-group">
+                <input id="name" type="text" class="form-control" placeholder="Name (Required)">
+            </div>
+            <div class="form-group">
+                <input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
+            </div>
+            <div class="form-group">
+                <label for="question1">I love food.</label>
+                <select class="form-control" id="question1">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Zoro-->    
+                    <option value="2">2</option>  <!--Nami-->
+                    <option value="3">3</option>  <!--Chopper-->
+                    <option value="4">4</option>  <!--Usopp-->
+                    <option value="5">5</option>  <!--Luffy-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question2">Money is important to me.</label>
+                <select class="form-control" id="question2">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Luffy-->
+                    <option value="2">2</option>  <!--Chopper-->
+                    <option value="3">3</option>  <!--Zoro-->
+                    <option value="4">4</option>  <!--Usopp-->
+                    <option value="5">5</option>  <!--Nami-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question3">I like to drink.</label>
+                <select class="form-control" id="question3">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Chopper-->
+                    <option value="2">2</option>  <!--Nami-->
+                    <option value="3">3</option>  <!--Usopp-->
+                    <option value="4">4</option>  <!--Luffy-->
+                    <option value="5">5</option>  <!--Zoro-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question4">I have a habit of lying.</label>
+                <select class="form-control" id="question4">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Luffy-->
+                    <option value="2">2</option>  <!--Chopper-->
+                    <option value="3">3</option>  <!--Zoro-->
+                    <option value="4">4</option>  <!--Nami-->
+                    <option value="5">5</option>  <!--Usopp-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question5">I think about my health often.</label>
+                <select class="form-control" id="question5">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Zoro-->
+                    <option value="2">2</option>  <!--Luffy-->
+                    <option value="3">3</option>  <!--Usopp-->
+                    <option value="4">4</option>  <!--Nami-->
+                    <option value="5">5</option>  <!--Chopper-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question6">I tend to sleep a lot.</label>
+                <select class="form-control" id="question6">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Nami-->
+                    <option value="2">2</option>  <!--Usopp-->
+                    <option value="3">3</option>  <!--Chopper-->
+                    <option value="4">4</option>  <!--Luffy-->
+                    <option value="5">5</option>  <!--Zoro-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question7">I like to take risks.</label>
+                <select class="form-control" id="question7">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Usopp-->
+                    <option value="2">2</option>  <!--Nami-->
+                    <option value="3">3</option>  <!--Chopper-->
+                    <option value="4">4</option>  <!--Zoro-->
+                    <option value="5">5</option>  <!--Luffy-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question8">Sometimes I feel clueless.</label>
+                <select class="form-control" id="question8">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Nami-->
+                    <option value="2">2</option>  <!--Usopp-->
+                    <option value="3">3</option>  <!--Chopper-->
+                    <option value="4">4</option>  <!--Zoro-->
+                    <option value="5">5</option>  <!--Luffy-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question9">I work out at the gym often.</label>
+                <select class="form-control" id="question9">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Nami-->
+                    <option value="2">2</option>  <!--Usopp-->
+                    <option value="3">3</option>  <!--Chopper-->
+                    <option value="4">4</option>  <!--Luffy-->
+                    <option value="5">5</option>  <!--Zoro-->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question10">I consider myself intelligent.</label>
+                <select class="form-control" id="question10">
+                    <option value="empty"></option>
+                    <option value="1">1</option>  <!--Luffy-->
+                    <option value="2">2</option>  <!--Zoro-->
+                    <option value="3">3</option>  <!--Chopper-->
+                    <option value="4">4</option>  <!--Usopp-->
+                    <option value="5">5</option>  <!--Nami-->
+                </select>
+            </div>
+        </form>
+        <div class="text-center">
+            <button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+        </div>
+
+        <!-- Modal after survey completion -->
+        <div id="bestFriendModal" class="modal fade" role="dialog">         <!--id for modal to toggle-->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Your New Best Friend</h1>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="bestFriend"></h2>           <!--dynamic-->
+                        <img id="bestFriendPhoto" src="#">  <!--dynamic-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container">
+            <a href="/api/friends">Discover Friends</a>
+            <span>|</span>
+            <a href="https://github.com/josephfmck/FriendFinder">GitHub Repo</a>
+        </div>
+    </footer>
+
+
+
+    <!-- Latest compiled and minified JS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+<script type="text/javascript">
+    $("#submitBtn").on("click", function (event) {
+        event.preventDefault();
+        // Form validation
+        var valid = true;       //valid boolean to check values
+        if ($("#name").val() === "" || $("#photo").val() === "") {  //if name or photo not entered
+            valid = false;
+        } else if ($("#question1").val() === "empty" || $("#question2").val() === "empty" || $("#question3").val() === "empty" || $("#question4").val() === "empty" || $("#question5").val() === "empty" || $("#question6").val() === "empty" || $("#question7").val() === "empty" || $("#question8").val() === "empty" || $("#question9").val() === "empty" || $("#question10").val() === "empty") {
+            valid = false;      //if any questions not answered
+        }
+        if (valid === true) {       //if all answered   create new user
+            var newUser = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+                    $("#question1").val(),
+                    $("#question2").val(),
+                    $("#question3").val(),
+                    $("#question4").val(),
+                    $("#question5").val(),
+                    $("#question6").val(),
+                    $("#question7").val(),
+                    $("#question8").val(),
+                    $("#question9").val(),
+                    $("#question10").val()
+                ]
+            };
+            var currentURL = window.location.origin;        //protocol, hostname and port number of the current URL
+            // Ajax call for receiving response after POST req
+            $.post(currentURL + "/api/friends", newUser, function (data) {  //post newUser object into currentURL
+                $("#bestFriend").text(data.name);       //post data.name to the text in modal
+                $("#bestFriendPhoto").attr("src", data.photo);      //post the data.photo to the src attribute
+                $("#bestFriendModal").modal("toggle");          //toggles the modal
+            });
+        } else {
+            // If a required field is missing, show alert
+            alert("Survey is incomplete!");
+        }
+    });
+</script>
